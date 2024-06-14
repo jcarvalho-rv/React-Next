@@ -7,6 +7,7 @@ async function Time(request, response) {
     const dataFeriado = apiFeriadosJson[0].date
     const nomeFeriado = apiFeriadosJson[0].localName
 
+    response.setHeader('Cache-Control', 's-maxage=10, stale-while-revalidate');
     response.json({
         date: dynamicDate.toGMTString(),
         data: dataFeriado,
