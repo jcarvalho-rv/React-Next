@@ -6,9 +6,16 @@ function Home() {
         <div>
             <div>
                 <h3>HOME</h3>
-                <Link href="/about" legacyBehavior>
-                    <a>Aceder à página ABOUT</a>
-                </Link>
+                <div>
+                    <Link href="/about" legacyBehavior>
+                        <a>Aceder à página ABOUT</a>
+                    </Link>
+                </div>
+                <div>
+                    <Link href="/time " legacyBehavior>
+                        <a>Aceder à página TIME</a>
+                    </Link>
+                </div>
             </div>
             <div>
                 <Contador />
