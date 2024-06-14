@@ -4,7 +4,10 @@ function Home() {
     return (
         <div>
             <div>
-                <h3>HOME (Produção)</h3>
+                <h3>HOME</h3>
+                <Link href="/about" legacyBehavior>
+                    <a>Aceder à página ABOUT</a>
+                </Link>
             </div>
             <div>
                 <Contador />
