@@ -16,6 +16,11 @@ function Home() {
                         <a>Aceder à página TIME</a>
                     </Link>
                 </div>
+                <div>
+                    <Link href="/products/2 " legacyBehavior>
+                        <a>Aceder à página PRODUCTS</a>
+                    </Link>
+                </div>
             </div>
             <div>
                 <Contador />
