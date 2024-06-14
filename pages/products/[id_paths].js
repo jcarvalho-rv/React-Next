@@ -18,6 +18,7 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps(context) {
+    //só para notar que a página só entra aqui a primeira vez, depois do next gerar a página estática não volta a entrar aqui (ex: id<> (1, 2)
     await delay(5000);
 
     const id_paths = context.params.id_paths;
